@@ -1,0 +1,43 @@
+{
+    "name": "socialmind/laravel-enguard",
+    "description": "Guard a Laravel app's boot against a misconfigured environment, from a single env.json source of truth.",
+    "keywords": ["laravel", "env", "environment", "validation", "guard", "dotenv"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialMind\\EnGuard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SocialMind\\EnGuard\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SocialMind\\EnGuard\\EnGuardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

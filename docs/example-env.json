@@ -1,0 +1,44 @@
+{
+  "$schema": "../schema/env.schema.json",
+  "environments": ["local", "staging", "production"],
+  "variables": {
+    "APP_ENV": {
+      "description": "Runtime environment. Selects which ruleset applies.",
+      "rules": {
+        "default": { "required": true, "oneOf": ["local", "staging", "production"] }
+      }
+    },
+    "APP_DEBUG": {
+      "description": "Verbose error output. Must be off in production.",
+      "rules": {
+        "default":    { "required": true, "type": "bool" },
+        "local":      { "equals": "true" },
+        "production": { "equals": "false" }
+      }
+    },
+    "APP_URL": {
+      "description": "Base URL of the application.",
+      "rules": {
+        "default": { "required": true, "type": "url" },
+        "local":   { "value": "http://localhost" }
+      }
+    },
+    "STRIPE_SECRET": {
+      "description": "Stripe secret key. Test keys locally, live keys in production.",
+      "secret": true,
+      "rules": {
+        "default":    { "required": true },
+        "local":      { "matches": "^sk_test_", "rejects": "^sk_live_" },
+        "staging":    { "matches": "^sk_test_" },
+        "production": { "matches": "^sk_live_" }
+      }
+    },
+    "TELESCOPE_ENABLED": {
+      "description": "Debug dashboard. Optional; must never be on in production.",
+      "rules": {
+        "default":    { "required": false, "type": "bool" },
+        "production": { "notOneOf": ["true", "1"] }
+      }
+    }
+  }
+}
