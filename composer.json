@@ -1,5 +1,5 @@
 {
-    "name": "socialmind/laravel-enguard",
+    "name": "intrfce/laravel-enguard",
     "description": "Guard a Laravel app's boot against a misconfigured environment, from a single env.json source of truth.",
     "keywords": ["laravel", "env", "environment", "validation", "guard", "dotenv"],
     "license": "MIT",
@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialMind\\EnGuard\\": "src/"
+            "Intrfce\\EnGuard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SocialMind\\EnGuard\\Tests\\": "tests/"
+            "Intrfce\\EnGuard\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SocialMind\\EnGuard\\EnGuardServiceProvider"
+                "Intrfce\\EnGuard\\EnGuardServiceProvider"
             ]
         }
     },

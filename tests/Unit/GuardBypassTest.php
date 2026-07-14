@@ -1,6 +1,6 @@
 <?php
 
-use SocialMind\EnGuard\Guard\GuardBypass;
+use Intrfce\EnGuard\Guard\GuardBypass;
 
 it('bypasses everything when disabled', function () {
     $bypass = new GuardBypass([], disabled: true);

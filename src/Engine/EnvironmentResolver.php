@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
 use Illuminate\Contracts\Foundation\Application;
-use SocialMind\EnGuard\Manifest\Manifest;
+use Intrfce\EnGuard\Manifest\Manifest;
 
 /**
  * Selects the ruleset in force from Laravel's resolved environment (ADR-0003) —

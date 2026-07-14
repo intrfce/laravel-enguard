@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
 /**
  * Formats a ValidationResult into the self-contained report carried by the boot

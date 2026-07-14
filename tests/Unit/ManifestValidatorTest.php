@@ -1,7 +1,7 @@
 <?php
 
-use SocialMind\EnGuard\Manifest\ManifestException;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Manifest\ManifestException;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
 
 function validate(array $variables, array $environments = ['local', 'production']): void
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace SocialMind\EnGuard\Commands;
+namespace Intrfce\EnGuard\Commands;
 
 use Illuminate\Console\Command;
-use SocialMind\EnGuard\Generation\EnvFileGenerator;
-use SocialMind\EnGuard\Generation\ExistingEnv;
-use SocialMind\EnGuard\Manifest\ManifestException;
-use SocialMind\EnGuard\Manifest\ManifestLoader;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Generation\EnvFileGenerator;
+use Intrfce\EnGuard\Generation\ExistingEnv;
+use Intrfce\EnGuard\Manifest\ManifestException;
+use Intrfce\EnGuard\Manifest\ManifestLoader;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
 
 /**
  * Materialises a .env from env.json (ADR-0006). Never clobbers an existing .env;

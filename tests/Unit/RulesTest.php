@@ -1,14 +1,14 @@
 <?php
 
-use SocialMind\EnGuard\Rules\Equals;
-use SocialMind\EnGuard\Rules\Forbidden;
-use SocialMind\EnGuard\Rules\Matches;
-use SocialMind\EnGuard\Rules\NotEmpty;
-use SocialMind\EnGuard\Rules\NotOneOf;
-use SocialMind\EnGuard\Rules\OneOf;
-use SocialMind\EnGuard\Rules\Rejects;
-use SocialMind\EnGuard\Rules\Required;
-use SocialMind\EnGuard\Rules\TypeRule;
+use Intrfce\EnGuard\Rules\Equals;
+use Intrfce\EnGuard\Rules\Forbidden;
+use Intrfce\EnGuard\Rules\Matches;
+use Intrfce\EnGuard\Rules\NotEmpty;
+use Intrfce\EnGuard\Rules\NotOneOf;
+use Intrfce\EnGuard\Rules\OneOf;
+use Intrfce\EnGuard\Rules\Rejects;
+use Intrfce\EnGuard\Rules\Required;
+use Intrfce\EnGuard\Rules\TypeRule;
 
 it('Required fires only on absence', function () {
     expect((new Required)->evaluate('K', null))->not->toBeNull()

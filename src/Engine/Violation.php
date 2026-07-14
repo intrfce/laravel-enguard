@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
 final class Violation
 {

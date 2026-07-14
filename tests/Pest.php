@@ -1,10 +1,10 @@
 <?php
 
-use SocialMind\EnGuard\Engine\EnvironmentResolver;
-use SocialMind\EnGuard\Engine\RuleEngine;
-use SocialMind\EnGuard\Manifest\Manifest;
-use SocialMind\EnGuard\Rules\RuleFactory;
-use SocialMind\EnGuard\Tests\TestCase;
+use Intrfce\EnGuard\Engine\EnvironmentResolver;
+use Intrfce\EnGuard\Engine\RuleEngine;
+use Intrfce\EnGuard\Manifest\Manifest;
+use Intrfce\EnGuard\Rules\RuleFactory;
+use Intrfce\EnGuard\Tests\TestCase;
 
 uses(TestCase::class)->in('Feature');
 

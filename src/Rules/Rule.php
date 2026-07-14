@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Rules;
+namespace Intrfce\EnGuard\Rules;
 
 /**
  * A single constraint. Returns a human-readable violation message, or null when

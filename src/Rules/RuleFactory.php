@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Rules;
+namespace Intrfce\EnGuard\Rules;
 
 /**
  * Turns a merged ruleset (from VariableDefinition::rulesFor) into concrete Rule

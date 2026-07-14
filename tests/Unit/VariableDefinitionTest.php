@@ -1,6 +1,6 @@
 <?php
 
-use SocialMind\EnGuard\Manifest\VariableDefinition;
+use Intrfce\EnGuard\Manifest\VariableDefinition;
 
 it('merges default under the named environment, named winning', function () {
     $def = VariableDefinition::fromArray('X', [

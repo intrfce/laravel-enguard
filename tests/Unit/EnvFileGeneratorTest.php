@@ -1,6 +1,6 @@
 <?php
 
-use SocialMind\EnGuard\Generation\EnvFileGenerator;
+use Intrfce\EnGuard\Generation\EnvFileGenerator;
 
 it('seeds non-secrets, blanks secrets, and writes descriptions as comments', function () {
     $manifest = manifest([

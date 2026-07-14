@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialMind\EnGuard\Tests;
+namespace Intrfce\EnGuard\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use SocialMind\EnGuard\EnGuardServiceProvider;
+use Intrfce\EnGuard\EnGuardServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

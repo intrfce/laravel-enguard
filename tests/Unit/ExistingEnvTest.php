@@ -1,6 +1,6 @@
 <?php
 
-use SocialMind\EnGuard\Generation\ExistingEnv;
+use Intrfce\EnGuard\Generation\ExistingEnv;
 
 it('extracts keys, ignoring comments and blanks and honouring export', function () {
     $path = tempnam(sys_get_temp_dir(), 'enguard');

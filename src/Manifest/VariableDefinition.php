@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Manifest;
+namespace Intrfce\EnGuard\Manifest;
 
 /**
  * One entry in the manifest: a variable, its metadata, and its per-environment

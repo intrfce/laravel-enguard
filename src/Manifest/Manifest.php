@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Manifest;
+namespace Intrfce\EnGuard\Manifest;
 
 /**
  * Parsed env.json: the closed set of environments and the declared variables

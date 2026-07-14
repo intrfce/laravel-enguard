@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Generation;
+namespace Intrfce\EnGuard\Generation;
 
 /**
  * Reads the KEYS present in an existing .env, so env:generate can compute what's

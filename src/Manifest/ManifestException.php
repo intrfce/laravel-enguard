@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Manifest;
+namespace Intrfce\EnGuard\Manifest;
 
 use RuntimeException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Rules;
+namespace Intrfce\EnGuard\Rules;
 
 /**
  * A present value must parse as the declared type: bool, int, url, or email

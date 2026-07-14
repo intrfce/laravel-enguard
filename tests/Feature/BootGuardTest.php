@@ -1,14 +1,14 @@
 <?php
 
-use SocialMind\EnGuard\Engine\EnvironmentResolver;
-use SocialMind\EnGuard\Engine\RawEnvironment;
-use SocialMind\EnGuard\Engine\RuleEngine;
-use SocialMind\EnGuard\Guard\BootGuard;
-use SocialMind\EnGuard\Guard\EnvironmentInvalidException;
-use SocialMind\EnGuard\Guard\GuardBypass;
-use SocialMind\EnGuard\Manifest\ManifestLoader;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
-use SocialMind\EnGuard\Rules\RuleFactory;
+use Intrfce\EnGuard\Engine\EnvironmentResolver;
+use Intrfce\EnGuard\Engine\RawEnvironment;
+use Intrfce\EnGuard\Engine\RuleEngine;
+use Intrfce\EnGuard\Guard\BootGuard;
+use Intrfce\EnGuard\Guard\EnvironmentInvalidException;
+use Intrfce\EnGuard\Guard\GuardBypass;
+use Intrfce\EnGuard\Manifest\ManifestLoader;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Rules\RuleFactory;
 
 /**
  * Testbench boots with APP_ENV=testing, so manifests here declare 'testing'.

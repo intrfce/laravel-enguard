@@ -1,13 +1,13 @@
 <?php
 
-namespace SocialMind\EnGuard\Commands;
+namespace Intrfce\EnGuard\Commands;
 
 use Illuminate\Console\Command;
-use SocialMind\EnGuard\Engine\RawEnvironment;
-use SocialMind\EnGuard\Engine\RuleEngine;
-use SocialMind\EnGuard\Manifest\ManifestException;
-use SocialMind\EnGuard\Manifest\ManifestLoader;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Engine\RawEnvironment;
+use Intrfce\EnGuard\Engine\RuleEngine;
+use Intrfce\EnGuard\Manifest\ManifestException;
+use Intrfce\EnGuard\Manifest\ManifestLoader;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
 
 /**
  * Runs the same rule engine as the boot guard, on demand, exiting non-zero on

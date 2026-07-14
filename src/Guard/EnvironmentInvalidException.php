@@ -1,10 +1,10 @@
 <?php
 
-namespace SocialMind\EnGuard\Guard;
+namespace Intrfce\EnGuard\Guard;
 
 use RuntimeException;
-use SocialMind\EnGuard\Engine\ValidationResult;
-use SocialMind\EnGuard\Engine\ViolationReporter;
+use Intrfce\EnGuard\Engine\ValidationResult;
+use Intrfce\EnGuard\Engine\ViolationReporter;
 
 /**
  * Thrown by the boot guard on a misconfigured environment (ADR-0001). Rendering

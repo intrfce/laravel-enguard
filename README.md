@@ -11,7 +11,7 @@ environment is wrong or dangerous, and generates `.env` on checkout.
 ## Install
 
 ```bash
-composer require socialmind/laravel-enguard
+composer require intrfce/laravel-enguard
 php artisan vendor:publish --tag=enguard-config   # optional
 php artisan vendor:publish --tag=enguard-schema   # optional: env.schema.json for editor validation
 ```

@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialMind\EnGuard\Generation;
+namespace Intrfce\EnGuard\Generation;
 
-use SocialMind\EnGuard\Manifest\Manifest;
-use SocialMind\EnGuard\Manifest\VariableDefinition;
+use Intrfce\EnGuard\Manifest\Manifest;
+use Intrfce\EnGuard\Manifest\VariableDefinition;
 
 /**
  * Renders .env content from the manifest for a target environment (ADR-0006):

@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Guard;
+namespace Intrfce\EnGuard\Guard;
 
 use Illuminate\Support\Str;
 

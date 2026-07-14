@@ -5,3 +5,7 @@ composer.lock
 /.idea
 /.vscode
 .DS_Store
+
+# Node (schema-check CI job)
+/node_modules/
+package-lock.json

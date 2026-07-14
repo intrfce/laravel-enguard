@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
 /**
  * The collect-all outcome of a validation pass (ADR-0001): every violation, not

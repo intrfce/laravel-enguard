@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
 /**
  * Reads the RAW process environment (ADR-0002) — never env()/config() — so

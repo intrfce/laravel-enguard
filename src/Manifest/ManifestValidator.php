@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Manifest;
+namespace Intrfce\EnGuard\Manifest;
 
 /**
  * The three cross-field checks JSON Schema structurally cannot express

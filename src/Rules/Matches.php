@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMind\EnGuard\Rules;
+namespace Intrfce\EnGuard\Rules;
 
 /**
  * A present value must match the regex. Patterns are authored without delimiters

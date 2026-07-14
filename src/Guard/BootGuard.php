@@ -1,14 +1,14 @@
 <?php
 
-namespace SocialMind\EnGuard\Guard;
+namespace Intrfce\EnGuard\Guard;
 
 use Illuminate\Contracts\Foundation\Application;
-use SocialMind\EnGuard\Engine\RawEnvironment;
-use SocialMind\EnGuard\Engine\RuleEngine;
-use SocialMind\EnGuard\Engine\ValidationResult;
-use SocialMind\EnGuard\Engine\Violation;
-use SocialMind\EnGuard\Manifest\ManifestLoader;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Engine\RawEnvironment;
+use Intrfce\EnGuard\Engine\RuleEngine;
+use Intrfce\EnGuard\Engine\ValidationResult;
+use Intrfce\EnGuard\Engine\Violation;
+use Intrfce\EnGuard\Manifest\ManifestLoader;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
 
 /**
  * Orchestrates the boot-time check (ADR-0001, ADR-0002): bypass? → load & validate

@@ -1,10 +1,10 @@
 <?php
 
-namespace SocialMind\EnGuard\Engine;
+namespace Intrfce\EnGuard\Engine;
 
-use SocialMind\EnGuard\Manifest\Manifest;
-use SocialMind\EnGuard\Rules\Required;
-use SocialMind\EnGuard\Rules\RuleFactory;
+use Intrfce\EnGuard\Manifest\Manifest;
+use Intrfce\EnGuard\Rules\Required;
+use Intrfce\EnGuard\Rules\RuleFactory;
 
 /**
  * The single rule engine shared by the Guard and env:check (ADR-0002). Validates

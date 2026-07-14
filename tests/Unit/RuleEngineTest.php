@@ -1,6 +1,6 @@
 <?php
 
-use SocialMind\EnGuard\Engine\RawEnvironment;
+use Intrfce\EnGuard\Engine\RawEnvironment;
 
 it('catches a live Stripe key in local (the headline use case)', function () {
     $manifest = manifest([

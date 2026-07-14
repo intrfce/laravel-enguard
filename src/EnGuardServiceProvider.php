@@ -1,16 +1,16 @@
 <?php
 
-namespace SocialMind\EnGuard;
+namespace Intrfce\EnGuard;
 
 use Illuminate\Support\ServiceProvider;
-use SocialMind\EnGuard\Commands\EnvCheckCommand;
-use SocialMind\EnGuard\Commands\EnvGenerateCommand;
-use SocialMind\EnGuard\Engine\RawEnvironment;
-use SocialMind\EnGuard\Engine\RuleEngine;
-use SocialMind\EnGuard\Guard\BootGuard;
-use SocialMind\EnGuard\Guard\GuardBypass;
-use SocialMind\EnGuard\Manifest\ManifestLoader;
-use SocialMind\EnGuard\Manifest\ManifestValidator;
+use Intrfce\EnGuard\Commands\EnvCheckCommand;
+use Intrfce\EnGuard\Commands\EnvGenerateCommand;
+use Intrfce\EnGuard\Engine\RawEnvironment;
+use Intrfce\EnGuard\Engine\RuleEngine;
+use Intrfce\EnGuard\Guard\BootGuard;
+use Intrfce\EnGuard\Guard\GuardBypass;
+use Intrfce\EnGuard\Manifest\ManifestLoader;
+use Intrfce\EnGuard\Manifest\ManifestValidator;
 
 final class EnGuardServiceProvider extends ServiceProvider
 {
